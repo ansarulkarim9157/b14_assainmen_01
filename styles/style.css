@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-parent{
+    background-color: white;
+    max-width: 1200px;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.first-parent a{
+    text-decoration: none;
+    padding: 10px;
+}
+.common-btn{
+    background-color: rgb(46, 46, 225);
+    padding: 5px 20px;
+    border-radius: 7px;
+    color: white;
+}
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 540px;
+
+
+}
+.banner-section-h1{
+    max-width: 500px;
+    background-position: center;
+}
+.meet-section{
+    display: grid;
+}
