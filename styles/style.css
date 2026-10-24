@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .first-parent {
@@ -94,7 +95,7 @@ p {
 
 
 .pricing-section {
-    background-color: white;
+    background-color: rgb(243, 242, 247);
     padding: 60px 20px;
 }
 
